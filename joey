@@ -1,0 +1,845 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Gui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("ImageLabel")
+local InfShotgunRounds = Instance.new("TextButton")
+local AntiCheatbypass = Instance.new("TextButton")
+local NoWanted = Instance.new("TextButton")
+local InfYield = Instance.new("TextButton")
+local Dupe = Instance.new("TextButton")
+local ForceDrop = Instance.new("TextButton")
+local AntiCheatbypass_2 = Instance.new("TextButton")
+local Anomicv = Instance.new("TextButton")
+local Sign = Instance.new("TextButton")
+local ShortJotaro = Instance.new("TextButton")
+local ShortStarPlatinum = Instance.new("TextButton")
+local X = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local bro = Instance.new("ImageLabel")
+
+--Properties:
+
+Gui.Name = "Gui"
+Gui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Gui.ResetOnSpawn = false
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Gui
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.Position = UDim2.new(0.242609575, 0, 0.263736278, 0)
+MainFrame.Size = UDim2.new(0, 428, 0, 242)
+MainFrame.Visible = false
+MainFrame.Image = "rbxassetid://8100660770"
+
+InfShotgunRounds.Name = "Inf Shotgun Rounds"
+InfShotgunRounds.Parent = MainFrame
+InfShotgunRounds.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+InfShotgunRounds.BorderColor3 = Color3.fromRGB(255, 170, 255)
+InfShotgunRounds.BorderSizePixel = 0
+InfShotgunRounds.Position = UDim2.new(0.793338239, 0, 0.290542156, 0)
+InfShotgunRounds.Size = UDim2.new(0, 78, 0, 28)
+InfShotgunRounds.Font = Enum.Font.Oswald
+InfShotgunRounds.Text = "Inf shotgun rounds"
+InfShotgunRounds.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfShotgunRounds.TextScaled = true
+InfShotgunRounds.TextSize = 14.000
+InfShotgunRounds.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+InfShotgunRounds.TextStrokeTransparency = 0.000
+InfShotgunRounds.TextWrapped = true
+
+AntiCheatbypass.Name = "Anti Cheat bypass"
+AntiCheatbypass.Parent = MainFrame
+AntiCheatbypass.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+AntiCheatbypass.BorderColor3 = Color3.fromRGB(255, 170, 255)
+AntiCheatbypass.BorderSizePixel = 0
+AntiCheatbypass.Position = UDim2.new(0.542165995, 0, 0.290542156, 0)
+AntiCheatbypass.Size = UDim2.new(0, 78, 0, 28)
+AntiCheatbypass.Font = Enum.Font.Oswald
+AntiCheatbypass.Text = "Anti Cheat Bypass"
+AntiCheatbypass.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiCheatbypass.TextScaled = true
+AntiCheatbypass.TextSize = 14.000
+AntiCheatbypass.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+AntiCheatbypass.TextStrokeTransparency = 0.000
+AntiCheatbypass.TextWrapped = true
+
+NoWanted.Name = "No Wanted"
+NoWanted.Parent = MainFrame
+NoWanted.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+NoWanted.BorderColor3 = Color3.fromRGB(255, 170, 255)
+NoWanted.BorderSizePixel = 0
+NoWanted.Position = UDim2.new(0.0373831056, 0, 0.507028639, 0)
+NoWanted.Size = UDim2.new(0, 78, 0, 28)
+NoWanted.Font = Enum.Font.Oswald
+NoWanted.Text = "Remove Wanted"
+NoWanted.TextColor3 = Color3.fromRGB(255, 255, 255)
+NoWanted.TextScaled = true
+NoWanted.TextSize = 14.000
+NoWanted.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+NoWanted.TextStrokeTransparency = 0.000
+NoWanted.TextWrapped = true
+
+InfYield.Name = "Inf Yield"
+InfYield.Parent = MainFrame
+InfYield.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+InfYield.BorderColor3 = Color3.fromRGB(255, 170, 255)
+InfYield.BorderSizePixel = 0
+InfYield.Position = UDim2.new(0.793338239, 0, 0.507028639, 0)
+InfYield.Size = UDim2.new(0, 78, 0, 28)
+InfYield.Font = Enum.Font.Oswald
+InfYield.Text = "Inf Yield Anomic"
+InfYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfYield.TextScaled = true
+InfYield.TextSize = 14.000
+InfYield.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+InfYield.TextStrokeTransparency = 0.000
+InfYield.TextWrapped = true
+
+Dupe.Name = "Dupe"
+Dupe.Parent = MainFrame
+Dupe.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+Dupe.BorderColor3 = Color3.fromRGB(255, 170, 255)
+Dupe.BorderSizePixel = 0
+Dupe.Position = UDim2.new(0.542165995, 0, 0.507028639, 0)
+Dupe.Size = UDim2.new(0, 78, 0, 28)
+Dupe.Font = Enum.Font.Oswald
+Dupe.Text = "Dupe method"
+Dupe.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dupe.TextScaled = true
+Dupe.TextSize = 14.000
+Dupe.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Dupe.TextStrokeTransparency = 0.000
+Dupe.TextWrapped = true
+
+ForceDrop.Name = "Force Drop"
+ForceDrop.Parent = MainFrame
+ForceDrop.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+ForceDrop.BorderColor3 = Color3.fromRGB(255, 170, 255)
+ForceDrop.BorderSizePixel = 0
+ForceDrop.Position = UDim2.new(0.278801024, 0, 0.507028639, 0)
+ForceDrop.Size = UDim2.new(0, 78, 0, 28)
+ForceDrop.Font = Enum.Font.Oswald
+ForceDrop.Text = "Force Drop"
+ForceDrop.TextColor3 = Color3.fromRGB(255, 255, 255)
+ForceDrop.TextScaled = true
+ForceDrop.TextSize = 14.000
+ForceDrop.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+ForceDrop.TextStrokeTransparency = 0.000
+ForceDrop.TextWrapped = true
+
+AntiCheatbypass_2.Name = "Anti Cheat bypass"
+AntiCheatbypass_2.Parent = MainFrame
+AntiCheatbypass_2.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+AntiCheatbypass_2.BorderColor3 = Color3.fromRGB(255, 170, 255)
+AntiCheatbypass_2.BorderSizePixel = 0
+AntiCheatbypass_2.Position = UDim2.new(0.542165995, 0, 0.723514795, 0)
+AntiCheatbypass_2.Size = UDim2.new(0, 78, 0, 28)
+AntiCheatbypass_2.Font = Enum.Font.Oswald
+AntiCheatbypass_2.Text = "Levitate"
+AntiCheatbypass_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiCheatbypass_2.TextScaled = true
+AntiCheatbypass_2.TextSize = 14.000
+AntiCheatbypass_2.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+AntiCheatbypass_2.TextStrokeTransparency = 0.000
+AntiCheatbypass_2.TextWrapped = true
+
+Anomicv.Name = "Anomic v"
+Anomicv.Parent = MainFrame
+Anomicv.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+Anomicv.BorderColor3 = Color3.fromRGB(255, 170, 255)
+Anomicv.BorderSizePixel = 0
+Anomicv.Position = UDim2.new(0.0373831056, 0, 0.723514795, 0)
+Anomicv.Size = UDim2.new(0, 78, 0, 28)
+Anomicv.Font = Enum.Font.Oswald
+Anomicv.Text = "Anomic v"
+Anomicv.TextColor3 = Color3.fromRGB(255, 255, 255)
+Anomicv.TextScaled = true
+Anomicv.TextSize = 14.000
+Anomicv.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Anomicv.TextStrokeTransparency = 0.000
+Anomicv.TextWrapped = true
+
+Sign.Name = "Sign"
+Sign.Parent = MainFrame
+Sign.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+Sign.BorderColor3 = Color3.fromRGB(255, 170, 255)
+Sign.BorderSizePixel = 0
+Sign.Position = UDim2.new(0.278801173, 0, 0.723514795, 0)
+Sign.Size = UDim2.new(0, 78, 0, 28)
+Sign.Font = Enum.Font.Oswald
+Sign.Text = "Nazi Sign (30 repair kits)"
+Sign.TextColor3 = Color3.fromRGB(255, 255, 255)
+Sign.TextScaled = true
+Sign.TextSize = 14.000
+Sign.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Sign.TextStrokeTransparency = 0.000
+Sign.TextWrapped = true
+
+ShortJotaro.Name = "Short Jotaro"
+ShortJotaro.Parent = MainFrame
+ShortJotaro.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+ShortJotaro.BorderColor3 = Color3.fromRGB(255, 170, 255)
+ShortJotaro.BorderSizePixel = 0
+ShortJotaro.Position = UDim2.new(0.0373831764, 0, 0.290542156, 0)
+ShortJotaro.Size = UDim2.new(0, 78, 0, 28)
+ShortJotaro.Font = Enum.Font.Oswald
+ShortJotaro.Text = "Short Jotaro"
+ShortJotaro.TextColor3 = Color3.fromRGB(255, 255, 255)
+ShortJotaro.TextScaled = true
+ShortJotaro.TextSize = 14.000
+ShortJotaro.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+ShortJotaro.TextStrokeTransparency = 0.000
+ShortJotaro.TextWrapped = true
+
+ShortStarPlatinum.Name = "Short Star Platinum"
+ShortStarPlatinum.Parent = MainFrame
+ShortStarPlatinum.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+ShortStarPlatinum.BorderColor3 = Color3.fromRGB(255, 170, 255)
+ShortStarPlatinum.BorderSizePixel = 0
+ShortStarPlatinum.Position = UDim2.new(0.278801173, 0, 0.290542156, 0)
+ShortStarPlatinum.Size = UDim2.new(0, 78, 0, 28)
+ShortStarPlatinum.Font = Enum.Font.Oswald
+ShortStarPlatinum.Text = "Short Star Platinum"
+ShortStarPlatinum.TextColor3 = Color3.fromRGB(255, 255, 255)
+ShortStarPlatinum.TextScaled = true
+ShortStarPlatinum.TextSize = 14.000
+ShortStarPlatinum.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+ShortStarPlatinum.TextStrokeTransparency = 0.000
+ShortStarPlatinum.TextWrapped = true
+
+X.Name = "X"
+X.Parent = MainFrame
+X.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+X.BackgroundTransparency = 1.000
+X.BorderColor3 = Color3.fromRGB(255, 170, 255)
+X.BorderSizePixel = 0
+X.Position = UDim2.new(0.906542063, 0, 0, 0)
+X.Size = UDim2.new(0, 40, 0, 33)
+X.Font = Enum.Font.PermanentMarker
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 0, 0)
+X.TextScaled = true
+X.TextSize = 14.000
+X.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+X.TextStrokeTransparency = 0.000
+X.TextWrapped = true
+
+ImageLabel.Parent = MainFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.343457937, 0, 0, 0)
+ImageLabel.Size = UDim2.new(0, 210, 0, 70)
+ImageLabel.Image = "rbxassetid://8100719203"
+
+ImageLabel_2.Parent = MainFrame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0.609813154, 0, 0.785123944, 0)
+ImageLabel_2.Size = UDim2.new(0, 188, 0, 88)
+ImageLabel_2.Image = "rbxassetid://8100731002"
+
+TextLabel.Parent = Gui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel.Position = UDim2.new(-0.00975846127, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 1000, 0, 1000)
+TextLabel.Visible = false
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+bro.Name = "bro"
+bro.Parent = TextLabel
+bro.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bro.BackgroundTransparency = 1.000
+bro.Position = UDim2.new(0.246687055, 0, 0, 0)
+bro.Size = UDim2.new(0, 534, 0, 455)
+bro.Image = "rbxassetid://8113550030"
+
+-- Scripts:
+
+local function VMKROF_fake_script() -- MainFrame.Script 
+	local script = Instance.new('Script', MainFrame)
+
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Credits to Dark SlayerYT#5012 for making",
+		Text = "very hot yes mmm",
+		Duration = 5
+	})
+end
+coroutine.wrap(VMKROF_fake_script)()
+local function MJBPTYU_fake_script() -- MainFrame.DragScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+	------------------------------------------------------------
+	--;-- -Only Change DragSpeed- -;--                         |
+	--;----;-- (I Forgot What The Other Stuff Dose) --;----;-- |
+	------------------------------------------------------------
+end
+coroutine.wrap(MJBPTYU_fake_script)()
+local function BOZAH_fake_script() -- InfShotgunRounds.Script 
+	local script = Instance.new('Script', InfShotgunRounds)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.bulletsPerRound = 50 -- set to how many bullets you want shot per click
+	
+	
+	
+		local lp = game.Players.LocalPlayer
+	
+	
+		local shotgunnames = {}
+	
+		local itemlist
+		local s,e = pcall(function()
+			itemlist = loadstring(decompile(game:GetService("ReplicatedStorage"):WaitForChild("Client"):WaitForChild("ItemList")))()
+		end)
+		if not s then 
+			itemlist = loadstring(game:HttpGet("https://raw.githubusercontent.com/BonfireDevelopment/Roblox/main/Anomic/Support%20Code/itemlist.lua%22"))()
+		end
+		local itemnamelist = {}
+	
+		for k,v in pairs (itemlist) do
+			table.insert(itemnamelist, k)
+			if string.find(k, "Shotgun") or k == "Sawed Off" then
+				table.insert(shotgunnames, k)
+			end
+		end
+	
+		local function ShotgunCheck(mode)
+			if mode == "char" then
+				if lp.Character and lp.Character:FindFirstChildOfClass("Tool") and table.find(shotgunnames, lp.Character:FindFirstChildOfClass("Tool").Name) then
+					return lp.Character:FindFirstChildOfClass("Tool")
+				else
+					return false
+				end
+			elseif mode == "backpack" then
+				for i,v in pairs (lp.Backpack:GetChildren()) do
+					if table.find(shotgunnames, v.Name) then
+						return v
+					end
+				end
+				return false
+			end
+		end
+		local miniguntoggle = false
+	
+		local mouse = lp:GetMouse()
+	
+		mouse.Button1Down:Connect(function()
+			if ShotgunCheck("char") then
+				for i=1,_G.bulletsPerRound do
+					ShotgunCheck("char").MainGunScript.ShotEvent:Fire(mouse, "Shotgun")
+				end
+			end
+		end)
+		local function mma(e, userInputState) 
+			if userInputState == Enum.UserInputState.End then
+				if miniguntoggle then miniguntoggle = false return end
+				miniguntoggle = true
+				if not ShotgunCheck("char") then return end
+				if not mouse1click then return end
+				while miniguntoggle do
+					if not ShotgunCheck("char") then miniguntoggle = false end
+					mouse1click()
+					task.wait(0.1)
+				end
+			end
+		end
+	
+		game.ContextActionService:BindActionAtPriority("MiddleMouseAction", mma, false, 100000, Enum.UserInputType.MouseButton3)
+	
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Credits to Bonfire#9355",
+			Text = "My dad raped me",
+			Duration = 5
+		})
+	
+		print(hookfunction())
+	end)
+end
+coroutine.wrap(BOZAH_fake_script)()
+local function NXPBT_fake_script() -- AntiCheatbypass.Script 
+	local script = Instance.new('Script', AntiCheatbypass)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if not game:IsLoaded() then game.Loaded:Wait() end
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+			vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+			wait(1)
+			vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
+	
+		local mt = getrawmetatable(game)
+		local old = mt.__namecall
+		local protect = newcclosure or protect_function
+	
+		setreadonly(mt, false)
+		mt.__namecall = protect(function(self, ...)
+			local method = getnamecallmethod()
+			if method == "Kick" then
+				wait(9e9)
+				return
+			end
+			return old(self, ...)
+		end)
+		hookfunction(game.Players.LocalPlayer.Kick,protect(function() wait(9e9) end))
+	end)
+end
+coroutine.wrap(NXPBT_fake_script)()
+local function UUXYBOT_fake_script() -- NoWanted.Script 
+	local script = Instance.new('Script', NoWanted)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Head.PlayerDisplay.TeamName:Destroy()
+		game.Players.LocalPlayer.Character.Head.PlayerDisplay.GangName:Destroy()
+		game.Players.LocalPlayer.Character.Head.PlayerDisplay.Wanted:Destroy()
+		game.Players.LocalPlayer.Character.Head.PlayerDisplay.GangImg:Destroy()
+	end)
+end
+coroutine.wrap(UUXYBOT_fake_script)()
+local function PHYR_fake_script() -- InfYield.Script 
+	local script = Instance.new('Script', InfYield)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/colbmane/leaked-shit/main/yoderwork'))()
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Credits to yoder daddy ;)",
+			Text = "My dad raped me (is true no scam 2021 password 123)",
+			Duration = 5
+		})
+		wait(1)
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "jk",
+			Text = "funi",
+			Duration = 2
+		})
+	end)
+end
+coroutine.wrap(PHYR_fake_script)()
+local function CEHO_fake_script() -- Dupe.Script 
+	local script = Instance.new('Script', Dupe)
+
+	local Player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid:Destroy()
+		wait(0.8)
+		Player:Kick("\nRejoining...")
+		wait()
+		game:GetService('TeleportService'):Teleport(game.PlaceId == 4581966615)
+	end)
+end
+coroutine.wrap(CEHO_fake_script)()
+local function IUJXTOR_fake_script() -- ForceDrop.Script 
+	local script = Instance.new('Script', ForceDrop)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid:Destroy()
+	end)
+end
+coroutine.wrap(IUJXTOR_fake_script)()
+local function KFJLAQ_fake_script() -- AntiCheatbypass_2.Script 
+	local script = Instance.new('Script', AntiCheatbypass_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local lp = game.Players.LocalPlayer
+		AnimationId = "3337994105"
+		local Anim = Instance.new("Animation")
+		Anim.AnimationId = "rbxassetid://"..AnimationId
+		standanim = lp.Character.Humanoid:LoadAnimation(Anim)
+		standanim:Play(0)
+		standanim:AdjustSpeed(1)
+		lp.Character.Animate.Disabled = true
+	end)
+end
+coroutine.wrap(KFJLAQ_fake_script)()
+local function KGMF_fake_script() -- Anomicv.Script 
+	local script = Instance.new('Script', Anomicv)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/HELLLO1073/RobloxStuff/main/SMain.lua"))()
+		
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Credits to H3#3534",
+			Text = "My dad raped me (is true no scam 2021 password 123)",
+			Duration = 5
+		})
+	end)
+end
+coroutine.wrap(KGMF_fake_script)()
+local function JPQXYH_fake_script() -- Sign.Script 
+	local script = Instance.new('Script', Sign)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--nazi sign (30x repair kits)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(0,-5,0) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(-.5,-5,0) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(-1,-5,0) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(-1.5,-5,0) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(0,-5,-1) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(0,-5,-2) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(0,-5,-3) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(.5,-5,-3) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(1,-5,-3) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(1.5,-5,-3) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(-1.5,-5,-3) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(-1,-5,-3) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(-.5,-5,-3) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(-1.5,-5,-4) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(-1.5,-5,-5) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(-1.5,-5,-6) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(.5,-5,-4) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(.5,-5,-5) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(.5,-5,-6) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(2,-5,-6) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(2.5,-5,-6) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(.5,-5,-6) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(1,-5,-6) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(1.5,-5,-6) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(1.5,-5,-2) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(1.5,-5,-1) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(1.5,-5,0) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(2,-5,0) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(2.5,-5,0) * CFrame.Angles(.2,0,0)
+		wait(0)
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Repair Kit"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(3,-5,0) * CFrame.Angles(.2,0,0)
+		wait(0)
+	end)
+end
+coroutine.wrap(JPQXYH_fake_script)()
+local function MZQJWL_fake_script() -- ShortJotaro.Script 
+	local script = Instance.new('Script', ShortJotaro)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Players = game:GetService('Players')
+		local LocalPlayer = Players.LocalPlayer or Players.LocalPlayer:Wait()
+		local Character = LocalPlayer.Character or LocalPlayer.Character:Wait()
+		local Humanoid = Character:WaitForChild('Humanoid')
+		local FireSequences = {{'Cloth';'Cool Hair'};{'Cloth';'No Mask'};{'Cloth';'No Beard'};{'Cloth';'Brim Hat'};{'Cloth';'No Jewelry'};{'Color';Color3.fromRGB(    255, 219, 172);'SkinColor'};{'Cloth';'No Glasses'};{'CustomCloth';'329801167'};{'CustomCloth';'329801109'}}
+		coroutine.wrap(function() 
+			for _, Sequence in next, FireSequences do
+				game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer(unpack(Sequence))
+			end
+		end)()
+		_G.isdel = false
+	
+		function Main(Delay)
+			local H = game.Players.LocalPlayer.Character:FindFirstChildWhichIsA('Humanoid')
+			local function DeleteOriginal()
+				for i,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+					if v.Name == 'OriginalSize' then
+						v:Destroy()
+					end
+					if v.Name == 'OriginalPosition' then 
+						v:Destroy()
+					end
+				end
+			end
+			local function Width()
+				wait(Delay)
+				DeleteOriginal()
+				H:FindFirstChild("BodyWidthScale"):Destroy()
+			end
+			local function Depth()
+				wait(Delay)
+				DeleteOriginal()
+				H:FindFirstChild("BodyDepthScale"):Destroy()
+			end
+			local function Head()
+				wait(Delay)
+				DeleteOriginal()
+				H:FindFirstChild("HeadScale"):Destroy()
+			end
+			local function Type()
+				wait(Delay)
+				DeleteOriginal()
+				H:FindFirstChild("BodyTypeScale"):Destroy()
+			end 
+			--// Rearrage these below to customize titan
+			Width()
+			Type()
+			Depth()
+			Head()
+			--\
+		end
+		Main(0.8)
+	end)
+end
+coroutine.wrap(MZQJWL_fake_script)()
+local function PIQVD_fake_script() -- ShortStarPlatinum.Script 
+	local script = Instance.new('Script', ShortStarPlatinum)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Star Platinum
+	
+		game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer("Color",Color3.new(128,0,128),"SkinColor")
+		game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer("CustomCloth",6644731266)
+		game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer("CustomCloth",6644731024)
+	
+		local Players = game:GetService('Players')
+		local LocalPlayer = Players.LocalPlayer or Players.LocalPlayer:Wait()
+		local Character = LocalPlayer.Character or LocalPlayer.Character:Wait()
+		local Humanoid = Character:WaitForChild('Humanoid')
+		local FireSequences = {{'Cloth';'Bed Hair'};{'Cloth';'No Mask'};{'Cloth';'No Beard'};{'Cloth';'No Hat'};{'Cloth';'No Jewelry'};{'Color';Color3.fromRGB(    128,0,128);'SkinColor'};{'Cloth';'No Glasses'};{'CustomCloth';'6644731266'};{'CustomCloth';'6644731024'}}
+		coroutine.wrap(function() 
+			for _, Sequence in next, FireSequences do
+				game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer(unpack(Sequence))
+			end
+		end)()
+		_G.isdel = false
+	
+		function Main(Delay)
+			local H = game.Players.LocalPlayer.Character:FindFirstChildWhichIsA('Humanoid')
+			local function DeleteOriginal()
+				for i,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+					if v.Name == 'OriginalSize' then
+						v:Destroy()
+					end
+					if v.Name == 'OriginalPosition' then 
+						v:Destroy()
+					end
+				end
+			end
+			local function Width()
+				wait(Delay)
+				DeleteOriginal()
+				H:FindFirstChild("BodyWidthScale"):Destroy()
+			end
+			local function Depth()
+				wait(Delay)
+				DeleteOriginal()
+				H:FindFirstChild("BodyDepthScale"):Destroy()
+			end
+			local function Head()
+				wait(Delay)
+				DeleteOriginal()
+				H:FindFirstChild("HeadScale"):Destroy()
+			end
+			local function Type()
+				wait(Delay)
+				DeleteOriginal()
+				H:FindFirstChild("BodyTypeScale"):Destroy()
+			end 
+			--// Rearrage these below to customize titan
+			Width()
+			Type()
+			Depth()
+			Head()
+			--\
+		end
+		Main(0.8)
+	end)
+end
+coroutine.wrap(PIQVD_fake_script)()
+local function GXHJM_fake_script() -- X.Script 
+	local script = Instance.new('Script', X)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.MainFrame:Destroy()
+	end)
+end
+coroutine.wrap(GXHJM_fake_script)()
+local function TSSHRD_fake_script() -- Gui.LocalScript 
+	local script = Instance.new('LocalScript', Gui)
+
+	local plr = game.Players.LocalPlayer
+	
+	if plr:IsInGroup(12867018) then
+		script.Parent.MainFrame.Visible = true
+	else
+		script.Parent.MainFrame:Destroy()
+		script.Parent.TextLabel.Visible = true
+	end
+end
+coroutine.wrap(TSSHRD_fake_script)()
