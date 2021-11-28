@@ -7,26 +7,28 @@ local Gui = Instance.new("ScreenGui")
 local TextLabel = Instance.new("TextLabel")
 local bro = Instance.new("ImageLabel")
 local MainFrame = Instance.new("ScrollingFrame")
-local Anomicv = Instance.new("TextButton")
-local AntiCheatbypass = Instance.new("TextButton")
-local AntiCheatbypass_2 = Instance.new("TextButton")
-local Dupe = Instance.new("TextButton")
-local ForceDrop = Instance.new("TextButton")
-local InfShotgunRounds = Instance.new("TextButton")
-local InfYield = Instance.new("TextButton")
-local NoWanted = Instance.new("TextButton")
-local ShortJotaro = Instance.new("TextButton")
-local ShortStarPlatinum = Instance.new("TextButton")
-local Sign = Instance.new("TextButton")
-local X = Instance.new("TextButton")
 local ImageLabel = Instance.new("ImageLabel")
-local ImageLabel_2 = Instance.new("ImageLabel")
 local TextLabel_2 = Instance.new("TextLabel")
 local TextLabel_3 = Instance.new("TextLabel")
 local TextLabel_4 = Instance.new("TextLabel")
 local TextLabel_5 = Instance.new("TextLabel")
-local TextLabel_6 = Instance.new("TextLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
 local ImageLabel_3 = Instance.new("ImageLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local X = Instance.new("TextButton")
+local Sign = Instance.new("TextButton")
+local ShortStarPlatinum = Instance.new("TextButton")
+local ShortJotaro = Instance.new("TextButton")
+local NoWanted = Instance.new("TextButton")
+local InfYield = Instance.new("TextButton")
+local InfShotgunRounds = Instance.new("TextButton")
+local ForceDrop = Instance.new("TextButton")
+local Dupe = Instance.new("TextButton")
+local AntiCheatbypass = Instance.new("TextButton")
+local Levitate = Instance.new("TextButton")
+local Anomicv = Instance.new("TextButton")
+local Sign_2 = Instance.new("TextButton")
+local Hero = Instance.new("TextButton")
 
 --Properties:
 
@@ -56,184 +58,90 @@ MainFrame.Name = "MainFrame"
 MainFrame.Parent = Gui
 MainFrame.Active = true
 MainFrame.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
-MainFrame.Position = UDim2.new(0.333333343, 0, 0.133611694, 0)
-MainFrame.Size = UDim2.new(0, 361, 0, 238)
+MainFrame.Position = UDim2.new(0.127421007, 0, 0.139874741, 0)
+MainFrame.Size = UDim2.new(0, 626, 0, 299)
+MainFrame.CanvasPosition = Vector2.new(0, 450)
 
-Anomicv.Name = "Anomic v"
-Anomicv.Parent = MainFrame
-Anomicv.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
-Anomicv.BorderColor3 = Color3.fromRGB(255, 170, 255)
-Anomicv.BorderSizePixel = 0
-Anomicv.Position = UDim2.new(0.300540984, 0, 0.455247641, 0)
-Anomicv.Size = UDim2.new(0, 78, 0, 28)
-Anomicv.Font = Enum.Font.Oswald
-Anomicv.Text = "Anomic v"
-Anomicv.TextColor3 = Color3.fromRGB(255, 255, 255)
-Anomicv.TextScaled = true
-Anomicv.TextSize = 14.000
-Anomicv.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
-Anomicv.TextStrokeTransparency = 0.000
-Anomicv.TextWrapped = true
+ImageLabel.Parent = MainFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(-0.0392501876, 0, -0.0189183131, 0)
+ImageLabel.Size = UDim2.new(0, 177, 0, 168)
+ImageLabel.Image = "rbxassetid://8113550030"
 
-AntiCheatbypass.Name = "Anti Cheat bypass"
-AntiCheatbypass.Parent = MainFrame
-AntiCheatbypass.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
-AntiCheatbypass.BorderColor3 = Color3.fromRGB(255, 170, 255)
-AntiCheatbypass.BorderSizePixel = 0
-AntiCheatbypass.Position = UDim2.new(0.0350272655, 0, 0.324988931, 0)
-AntiCheatbypass.Size = UDim2.new(0, 78, 0, 28)
-AntiCheatbypass.Font = Enum.Font.Oswald
-AntiCheatbypass.Text = "Anti Cheat Bypass"
-AntiCheatbypass.TextColor3 = Color3.fromRGB(255, 255, 255)
-AntiCheatbypass.TextScaled = true
-AntiCheatbypass.TextSize = 14.000
-AntiCheatbypass.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
-AntiCheatbypass.TextStrokeTransparency = 0.000
-AntiCheatbypass.TextWrapped = true
+TextLabel_2.Parent = MainFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0141424537, 0, 0.489561588, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.Cartoon
+TextLabel_2.Text = "Animations"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
 
-AntiCheatbypass_2.Name = "Anti Cheat bypass"
-AntiCheatbypass_2.Parent = MainFrame
-AntiCheatbypass_2.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
-AntiCheatbypass_2.BorderColor3 = Color3.fromRGB(255, 170, 255)
-AntiCheatbypass_2.BorderSizePixel = 0
-AntiCheatbypass_2.Position = UDim2.new(0.0817031264, 0, 0.748566985, 0)
-AntiCheatbypass_2.Size = UDim2.new(0, 78, 0, 28)
-AntiCheatbypass_2.Font = Enum.Font.Oswald
-AntiCheatbypass_2.Text = "Levitate"
-AntiCheatbypass_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-AntiCheatbypass_2.TextScaled = true
-AntiCheatbypass_2.TextSize = 14.000
-AntiCheatbypass_2.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
-AntiCheatbypass_2.TextStrokeTransparency = 0.000
-AntiCheatbypass_2.TextWrapped = true
+TextLabel_3.Parent = MainFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.63395071, 0, 0.281837165, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.Cartoon
+TextLabel_3.Text = "FE"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
 
-Dupe.Name = "Dupe"
-Dupe.Parent = MainFrame
-Dupe.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
-Dupe.BorderColor3 = Color3.fromRGB(255, 170, 255)
-Dupe.BorderSizePixel = 0
-Dupe.Position = UDim2.new(0.0333767533, 0, 0.369241595, 0)
-Dupe.Size = UDim2.new(0, 78, 0, 28)
-Dupe.Font = Enum.Font.Oswald
-Dupe.Text = "Not working atm"
-Dupe.TextColor3 = Color3.fromRGB(255, 255, 255)
-Dupe.TextScaled = true
-Dupe.TextSize = 14.000
-Dupe.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
-Dupe.TextStrokeTransparency = 0.000
-Dupe.TextWrapped = true
+TextLabel_4.Parent = MainFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(-0.0363297015, 0, 0.257828772, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_4.Font = Enum.Font.Cartoon
+TextLabel_4.Text = "OP"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
 
-ForceDrop.Name = "Force Drop"
-ForceDrop.Parent = MainFrame
-ForceDrop.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
-ForceDrop.BorderColor3 = Color3.fromRGB(255, 170, 255)
-ForceDrop.BorderSizePixel = 0
-ForceDrop.Position = UDim2.new(0.366526037, 0, 0.369241565, 0)
-ForceDrop.Size = UDim2.new(0, 78, 0, 28)
-ForceDrop.Font = Enum.Font.Oswald
-ForceDrop.Text = "Force Drop"
-ForceDrop.TextColor3 = Color3.fromRGB(255, 255, 255)
-ForceDrop.TextScaled = true
-ForceDrop.TextSize = 14.000
-ForceDrop.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
-ForceDrop.TextStrokeTransparency = 0.000
-ForceDrop.TextWrapped = true
+TextLabel_5.Parent = MainFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(-0.00118594244, 0, 0.15553233, 0)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_5.Font = Enum.Font.Cartoon
+TextLabel_5.Text = "Short"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
 
-InfShotgunRounds.Name = "Inf Shotgun Rounds"
-InfShotgunRounds.Parent = MainFrame
-InfShotgunRounds.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
-InfShotgunRounds.BorderColor3 = Color3.fromRGB(255, 170, 255)
-InfShotgunRounds.BorderSizePixel = 0
-InfShotgunRounds.Position = UDim2.new(0.695346594, 0, 0.323945105, 0)
-InfShotgunRounds.Size = UDim2.new(0, 78, 0, 28)
-InfShotgunRounds.Font = Enum.Font.Oswald
-InfShotgunRounds.Text = "Inf shotgun rounds"
-InfShotgunRounds.TextColor3 = Color3.fromRGB(255, 255, 255)
-InfShotgunRounds.TextScaled = true
-InfShotgunRounds.TextSize = 14.000
-InfShotgunRounds.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
-InfShotgunRounds.TextStrokeTransparency = 0.000
-InfShotgunRounds.TextWrapped = true
+ImageLabel_2.Parent = MainFrame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0.244663984, 0, 0, 0)
+ImageLabel_2.Size = UDim2.new(0, 346, 0, 138)
+ImageLabel_2.Image = "rbxassetid://8100719203"
 
-InfYield.Name = "Inf Yield"
-InfYield.Parent = MainFrame
-InfYield.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
-InfYield.BorderColor3 = Color3.fromRGB(255, 170, 255)
-InfYield.BorderSizePixel = 0
-InfYield.Position = UDim2.new(0.0331524462, 0, 0.455880374, 0)
-InfYield.Size = UDim2.new(0, 78, 0, 28)
-InfYield.Font = Enum.Font.Oswald
-InfYield.Text = "Inf Yield Anomic"
-InfYield.TextColor3 = Color3.fromRGB(255, 255, 255)
-InfYield.TextScaled = true
-InfYield.TextSize = 14.000
-InfYield.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
-InfYield.TextStrokeTransparency = 0.000
-InfYield.TextWrapped = true
+ImageLabel_3.Parent = MainFrame
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.Position = UDim2.new(0.698713958, 0, 0.632723033, 0)
+ImageLabel_3.Size = UDim2.new(0, 188, 0, 88)
+ImageLabel_3.Image = "rbxassetid://8100731002"
 
-NoWanted.Name = "No Wanted"
-NoWanted.Parent = MainFrame
-NoWanted.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
-NoWanted.BorderColor3 = Color3.fromRGB(255, 170, 255)
-NoWanted.BorderSizePixel = 0
-NoWanted.Position = UDim2.new(0.369544894, 0, 0.324356407, 0)
-NoWanted.Size = UDim2.new(0, 78, 0, 28)
-NoWanted.Font = Enum.Font.Oswald
-NoWanted.Text = "Remove Wanted"
-NoWanted.TextColor3 = Color3.fromRGB(255, 255, 255)
-NoWanted.TextScaled = true
-NoWanted.TextSize = 14.000
-NoWanted.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
-NoWanted.TextStrokeTransparency = 0.000
-NoWanted.TextWrapped = true
-
-ShortJotaro.Name = "Short Jotaro"
-ShortJotaro.Parent = MainFrame
-ShortJotaro.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
-ShortJotaro.BorderColor3 = Color3.fromRGB(255, 170, 255)
-ShortJotaro.BorderSizePixel = 0
-ShortJotaro.Position = UDim2.new(0.0352998339, 0, 0.216429412, 0)
-ShortJotaro.Size = UDim2.new(0, 78, 0, 28)
-ShortJotaro.Font = Enum.Font.Oswald
-ShortJotaro.Text = "Short Jotaro"
-ShortJotaro.TextColor3 = Color3.fromRGB(255, 255, 255)
-ShortJotaro.TextScaled = true
-ShortJotaro.TextSize = 14.000
-ShortJotaro.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
-ShortJotaro.TextStrokeTransparency = 0.000
-ShortJotaro.TextWrapped = true
-
-ShortStarPlatinum.Name = "Short Star Platinum"
-ShortStarPlatinum.Parent = MainFrame
-ShortStarPlatinum.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
-ShortStarPlatinum.BorderColor3 = Color3.fromRGB(255, 170, 255)
-ShortStarPlatinum.BorderSizePixel = 0
-ShortStarPlatinum.Position = UDim2.new(0.300979167, 0, 0.216429412, 0)
-ShortStarPlatinum.Size = UDim2.new(0, 78, 0, 28)
-ShortStarPlatinum.Font = Enum.Font.Oswald
-ShortStarPlatinum.Text = "Short Star Platinum"
-ShortStarPlatinum.TextColor3 = Color3.fromRGB(255, 255, 255)
-ShortStarPlatinum.TextScaled = true
-ShortStarPlatinum.TextSize = 14.000
-ShortStarPlatinum.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
-ShortStarPlatinum.TextStrokeTransparency = 0.000
-ShortStarPlatinum.TextWrapped = true
-
-Sign.Name = "Sign"
-Sign.Parent = MainFrame
-Sign.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
-Sign.BorderColor3 = Color3.fromRGB(255, 170, 255)
-Sign.BorderSizePixel = 0
-Sign.Position = UDim2.new(0.0828292519, 0, 0.644182801, 0)
-Sign.Size = UDim2.new(0, 78, 0, 28)
-Sign.Font = Enum.Font.Oswald
-Sign.Text = "Nazi Sign (30 repair kits)"
-Sign.TextColor3 = Color3.fromRGB(255, 255, 255)
-Sign.TextScaled = true
-Sign.TextSize = 14.000
-Sign.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
-Sign.TextStrokeTransparency = 0.000
-Sign.TextWrapped = true
+TextLabel_6.Parent = MainFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.624366105, 0, 0.158663869, 0)
+TextLabel_6.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_6.Font = Enum.Font.Cartoon
+TextLabel_6.Text = "Other Guis"
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
 
 X.Name = "X"
 X.Parent = MainFrame
@@ -252,90 +160,217 @@ X.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
 X.TextStrokeTransparency = 0.000
 X.TextWrapped = true
 
-ImageLabel.Parent = MainFrame
-ImageLabel.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
-ImageLabel.BackgroundTransparency = 1.000
-ImageLabel.Position = UDim2.new(0.475071728, 0, 0.866543531, 0)
-ImageLabel.Size = UDim2.new(0, 188, 0, 88)
-ImageLabel.Image = "rbxassetid://8100731002"
+Sign.Name = "Sign"
+Sign.Parent = MainFrame
+Sign.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+Sign.BorderColor3 = Color3.fromRGB(255, 170, 255)
+Sign.BorderSizePixel = 0
+Sign.Position = UDim2.new(0.624362767, 0, 0.337293446, 0)
+Sign.Size = UDim2.new(0, 78, 0, 28)
+Sign.Font = Enum.Font.Oswald
+Sign.Text = "Sticker Sign (30 repair kits)"
+Sign.TextColor3 = Color3.fromRGB(255, 255, 255)
+Sign.TextScaled = true
+Sign.TextSize = 14.000
+Sign.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Sign.TextStrokeTransparency = 0.000
+Sign.TextWrapped = true
 
-ImageLabel_2.Parent = MainFrame
-ImageLabel_2.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
-ImageLabel_2.BackgroundTransparency = 1.000
-ImageLabel_2.Position = UDim2.new(-0.00134239346, 0, 0, 0)
-ImageLabel_2.Size = UDim2.new(0, 346, 0, 138)
-ImageLabel_2.Image = "rbxassetid://8100719203"
+ShortStarPlatinum.Name = "Short Star Platinum"
+ShortStarPlatinum.Parent = MainFrame
+ShortStarPlatinum.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+ShortStarPlatinum.BorderColor3 = Color3.fromRGB(255, 170, 255)
+ShortStarPlatinum.BorderSizePixel = 0
+ShortStarPlatinum.Position = UDim2.new(0.158806637, 0, 0.216429412, 0)
+ShortStarPlatinum.Size = UDim2.new(0, 78, 0, 28)
+ShortStarPlatinum.Font = Enum.Font.Oswald
+ShortStarPlatinum.Text = "Short Star Platinum"
+ShortStarPlatinum.TextColor3 = Color3.fromRGB(255, 255, 255)
+ShortStarPlatinum.TextScaled = true
+ShortStarPlatinum.TextSize = 14.000
+ShortStarPlatinum.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+ShortStarPlatinum.TextStrokeTransparency = 0.000
+ShortStarPlatinum.TextWrapped = true
 
-TextLabel_2.Parent = MainFrame
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.Position = UDim2.new(0.216066465, 0, 0.156576172, 0)
-TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_2.Font = Enum.Font.Cartoon
-TextLabel_2.Text = "Short"
-TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 255)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
+ShortJotaro.Name = "Short Jotaro"
+ShortJotaro.Parent = MainFrame
+ShortJotaro.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+ShortJotaro.BorderColor3 = Color3.fromRGB(255, 170, 255)
+ShortJotaro.BorderSizePixel = 0
+ShortJotaro.Position = UDim2.new(0.0145330615, 0, 0.216429412, 0)
+ShortJotaro.Size = UDim2.new(0, 78, 0, 28)
+ShortJotaro.Font = Enum.Font.Oswald
+ShortJotaro.Text = "Short Jotaro"
+ShortJotaro.TextColor3 = Color3.fromRGB(255, 255, 255)
+ShortJotaro.TextScaled = true
+ShortJotaro.TextSize = 14.000
+ShortJotaro.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+ShortJotaro.TextStrokeTransparency = 0.000
+ShortJotaro.TextWrapped = true
 
-TextLabel_3.Parent = MainFrame
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.Position = UDim2.new(0.216066465, 0, 0.259916455, 0)
-TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_3.Font = Enum.Font.Cartoon
-TextLabel_3.Text = "OP"
-TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 255)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextWrapped = true
+NoWanted.Name = "No Wanted"
+NoWanted.Parent = MainFrame
+NoWanted.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+NoWanted.BorderColor3 = Color3.fromRGB(255, 170, 255)
+NoWanted.BorderSizePixel = 0
+NoWanted.Position = UDim2.new(0.157084823, 0, 0.323312551, 0)
+NoWanted.Size = UDim2.new(0, 78, 0, 28)
+NoWanted.Font = Enum.Font.Oswald
+NoWanted.Text = "Remove Wanted"
+NoWanted.TextColor3 = Color3.fromRGB(255, 255, 255)
+NoWanted.TextScaled = true
+NoWanted.TextSize = 14.000
+NoWanted.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+NoWanted.TextStrokeTransparency = 0.000
+NoWanted.TextWrapped = true
 
-TextLabel_4.Parent = MainFrame
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.BackgroundTransparency = 1.000
-TextLabel_4.Position = UDim2.new(0.199445963, 0, 0.40292275, 0)
-TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_4.Font = Enum.Font.Cartoon
-TextLabel_4.Text = "Other Guis"
-TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 255)
-TextLabel_4.TextScaled = true
-TextLabel_4.TextSize = 14.000
-TextLabel_4.TextWrapped = true
+InfYield.Name = "Inf Yield"
+InfYield.Parent = MainFrame
+InfYield.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+InfYield.BorderColor3 = Color3.fromRGB(255, 170, 255)
+InfYield.BorderSizePixel = 0
+InfYield.Position = UDim2.new(0.624206781, 0, 0.215796858, 0)
+InfYield.Size = UDim2.new(0, 78, 0, 28)
+InfYield.Font = Enum.Font.Oswald
+InfYield.Text = "Inf Yield Anomic"
+InfYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfYield.TextScaled = true
+InfYield.TextSize = 14.000
+InfYield.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+InfYield.TextStrokeTransparency = 0.000
+InfYield.TextWrapped = true
 
-TextLabel_5.Parent = MainFrame
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.Position = UDim2.new(0.199445963, 0, 0.577244282, 0)
-TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_5.Font = Enum.Font.Cartoon
-TextLabel_5.Text = "FE"
-TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 255)
-TextLabel_5.TextScaled = true
-TextLabel_5.TextSize = 14.000
-TextLabel_5.TextWrapped = true
+InfShotgunRounds.Name = "Inf Shotgun Rounds"
+InfShotgunRounds.Parent = MainFrame
+InfShotgunRounds.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+InfShotgunRounds.BorderColor3 = Color3.fromRGB(255, 170, 255)
+InfShotgunRounds.BorderSizePixel = 0
+InfShotgunRounds.Position = UDim2.new(0.0132379532, 0, 0.409540117, 0)
+InfShotgunRounds.Size = UDim2.new(0, 78, 0, 28)
+InfShotgunRounds.Font = Enum.Font.Oswald
+InfShotgunRounds.Text = "Inf shotgun rounds"
+InfShotgunRounds.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfShotgunRounds.TextScaled = true
+InfShotgunRounds.TextSize = 14.000
+InfShotgunRounds.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+InfShotgunRounds.TextStrokeTransparency = 0.000
+InfShotgunRounds.TextWrapped = true
 
-TextLabel_6.Parent = MainFrame
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.BackgroundTransparency = 1.000
-TextLabel_6.Position = UDim2.new(0.199445963, 0, 0.684759915, 0)
-TextLabel_6.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_6.Font = Enum.Font.Cartoon
-TextLabel_6.Text = "Animations"
-TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 255)
-TextLabel_6.TextScaled = true
-TextLabel_6.TextSize = 14.000
-TextLabel_6.TextWrapped = true
+ForceDrop.Name = "Force Drop"
+ForceDrop.Parent = MainFrame
+ForceDrop.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+ForceDrop.BorderColor3 = Color3.fromRGB(255, 170, 255)
+ForceDrop.BorderSizePixel = 0
+ForceDrop.Position = UDim2.new(0.155663416, 0, 0.368197709, 0)
+ForceDrop.Size = UDim2.new(0, 78, 0, 28)
+ForceDrop.Font = Enum.Font.Oswald
+ForceDrop.Text = "Force Drop"
+ForceDrop.TextColor3 = Color3.fromRGB(255, 255, 255)
+ForceDrop.TextScaled = true
+ForceDrop.TextSize = 14.000
+ForceDrop.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+ForceDrop.TextStrokeTransparency = 0.000
+ForceDrop.TextWrapped = true
 
-ImageLabel_3.Parent = MainFrame
-ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_3.BackgroundTransparency = 1.000
-ImageLabel_3.Position = UDim2.new(0.360110819, 0, 0.0803757831, 0)
-ImageLabel_3.Size = UDim2.new(0, 100, 0, 100)
-ImageLabel_3.Image = "rbxassetid://8113550030"
+Dupe.Name = "Dupe"
+Dupe.Parent = MainFrame
+Dupe.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+Dupe.BorderColor3 = Color3.fromRGB(255, 170, 255)
+Dupe.BorderSizePixel = 0
+Dupe.Position = UDim2.new(0.0142074246, 0, 0.368197739, 0)
+Dupe.Size = UDim2.new(0, 78, 0, 28)
+Dupe.Font = Enum.Font.Oswald
+Dupe.Text = "Not working atm"
+Dupe.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dupe.TextScaled = true
+Dupe.TextSize = 14.000
+Dupe.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Dupe.TextStrokeTransparency = 0.000
+Dupe.TextWrapped = true
+
+AntiCheatbypass.Name = "Anti Cheat bypass"
+AntiCheatbypass.Parent = MainFrame
+AntiCheatbypass.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+AntiCheatbypass.BorderColor3 = Color3.fromRGB(255, 170, 255)
+AntiCheatbypass.BorderSizePixel = 0
+AntiCheatbypass.Position = UDim2.new(0.0142604932, 0, 0.323945075, 0)
+AntiCheatbypass.Size = UDim2.new(0, 78, 0, 28)
+AntiCheatbypass.Font = Enum.Font.Oswald
+AntiCheatbypass.Text = "Anti Cheat Bypass"
+AntiCheatbypass.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiCheatbypass.TextScaled = true
+AntiCheatbypass.TextSize = 14.000
+AntiCheatbypass.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+AntiCheatbypass.TextStrokeTransparency = 0.000
+AntiCheatbypass.TextWrapped = true
+
+Levitate.Name = "Levitate"
+Levitate.Parent = MainFrame
+Levitate.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+Levitate.BorderColor3 = Color3.fromRGB(255, 170, 255)
+Levitate.BorderSizePixel = 0
+Levitate.Position = UDim2.new(0.0130130053, 0, 0.556500196, 0)
+Levitate.Size = UDim2.new(0, 78, 0, 28)
+Levitate.Font = Enum.Font.Oswald
+Levitate.Text = "Levitate"
+Levitate.TextColor3 = Color3.fromRGB(255, 255, 255)
+Levitate.TextScaled = true
+Levitate.TextSize = 14.000
+Levitate.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Levitate.TextStrokeTransparency = 0.000
+Levitate.TextWrapped = true
+
+Anomicv.Name = "Anomic v"
+Anomicv.Parent = MainFrame
+Anomicv.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+Anomicv.BorderColor3 = Color3.fromRGB(255, 170, 255)
+Anomicv.BorderSizePixel = 0
+Anomicv.Position = UDim2.new(0.840477109, 0, 0.216207981, 0)
+Anomicv.Size = UDim2.new(0, 78, 0, 28)
+Anomicv.Font = Enum.Font.Oswald
+Anomicv.Text = "Anomic v"
+Anomicv.TextColor3 = Color3.fromRGB(255, 255, 255)
+Anomicv.TextScaled = true
+Anomicv.TextSize = 14.000
+Anomicv.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Anomicv.TextStrokeTransparency = 0.000
+Anomicv.TextWrapped = true
+
+Sign_2.Name = "Sign"
+Sign_2.Parent = MainFrame
+Sign_2.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+Sign_2.BorderColor3 = Color3.fromRGB(255, 170, 255)
+Sign_2.BorderSizePixel = 0
+Sign_2.Position = UDim2.new(0.828835607, 0, 0.337293446, 0)
+Sign_2.Size = UDim2.new(0, 78, 0, 28)
+Sign_2.Font = Enum.Font.Oswald
+Sign_2.Text = "Scorpion Sign (12 Drills)"
+Sign_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Sign_2.TextScaled = true
+Sign_2.TextSize = 14.000
+Sign_2.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Sign_2.TextStrokeTransparency = 0.000
+Sign_2.TextWrapped = true
+
+Hero.Name = "Hero"
+Hero.Parent = MainFrame
+Hero.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+Hero.BorderColor3 = Color3.fromRGB(255, 170, 255)
+Hero.BorderSizePixel = 0
+Hero.Position = UDim2.new(0.193524182, 0, 0.556500196, 0)
+Hero.Size = UDim2.new(0, 78, 0, 28)
+Hero.Font = Enum.Font.Oswald
+Hero.Text = "Hero"
+Hero.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hero.TextScaled = true
+Hero.TextSize = 14.000
+Hero.TextStrokeColor3 = Color3.fromRGB(0, 0, 255)
+Hero.TextStrokeTransparency = 0.000
+Hero.TextWrapped = true
 
 -- Scripts:
 
-local function TPUBEUZ_fake_script() -- Gui.LocalScript 
+local function HADJ_fake_script() -- Gui.LocalScript 
 	local script = Instance.new('LocalScript', Gui)
 
 	local plr = game.Players.LocalPlayer
@@ -354,18 +389,45 @@ local function TPUBEUZ_fake_script() -- Gui.LocalScript
 		plr:Kick("Joey, no more trying to get my gui for free and actually pay for it!!!!")
 	end
 end
-coroutine.wrap(TPUBEUZ_fake_script)()
-local function MQJOSN_fake_script() -- MainFrame.Script 
-	local script = Instance.new('Script', MainFrame)
+coroutine.wrap(HADJ_fake_script)()
+local function AOTT_fake_script() -- Gui.KeyPress 
+	local script = Instance.new('LocalScript', Gui)
 
-	game.StarterGui:SetCore("SendNotification", {
-		Title = "Credits to Dark SlayerYT#5012 for making",
-		Text = "very hot yes mmm",
-		Duration = 5
-	})
+	--[[
+		
+		Press Key to Open a GUI Script V2
+		Script By: Theevilem
+		
+		This script works so that when you press a key on your keyboard, it opens a Gui.
+		
+		Put it accordingly into the StarterGui (More info on line 17
+		
+	--]]
+	wait()
+	
+	local Players = game:GetService("Players")
+	local Player = Players.LocalPlayer
+	
+	local Mouse = Player:GetMouse()
+	local Gui = script.Parent.MainFrame -- Set path to whatever Gui you want to open. For Example: script.Parent.Parent.GuiOrFrameName
+	local Open = false
+	
+	function PressH(key) -- Chnage Q to whatever key you desire. Capitals matter. For Example: PressH
+		if (key == "h") then -- Change "q" to whatever letter you use in the line above. Lowercase matters. For Example: "h"
+			if (Open == false) then
+				Gui.Visible = true
+				Open = true
+			elseif (Open == true) then
+				Gui.Visible = false
+				Open = false
+			end
+		end
+	end
+		
+	Mouse.KeyDown:Connect(PressH) -- Make sure (PressQ) matches what you have for line 20. For Example: (PressH)
 end
-coroutine.wrap(MQJOSN_fake_script)()
-local function VLMUISU_fake_script() -- MainFrame.DragScript 
+coroutine.wrap(AOTT_fake_script)()
+local function LUFUU_fake_script() -- MainFrame.DragScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local UIS = game:GetService('UserInputService')
@@ -409,328 +471,29 @@ local function VLMUISU_fake_script() -- MainFrame.DragScript
 	--;----;-- (I Forgot What The Other Stuff Dose) --;----;-- |
 	------------------------------------------------------------
 end
-coroutine.wrap(VLMUISU_fake_script)()
-local function OALY_fake_script() -- Anomicv.Script 
-	local script = Instance.new('Script', Anomicv)
+coroutine.wrap(LUFUU_fake_script)()
+local function ZEHVA_fake_script() -- MainFrame.Script 
+	local script = Instance.new('Script', MainFrame)
+
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Credits to Dark SlayerYT#5012 for making",
+		Text = "very hot yes mmm",
+		Duration = 5
+	})
+end
+coroutine.wrap(ZEHVA_fake_script)()
+local function XVQDQIU_fake_script() -- X.Script 
+	local script = Instance.new('Script', X)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/HELLLO1073/RobloxStuff/main/SMain.lua"))()
-		
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "Credits to H3#3534",
-			Text = "My dad raped me (is true no scam 2021 password 123)",
-			Duration = 5
-		})
+		script.Parent.Parent.Parent.MainFrame:Destroy()
 	end)
 end
-coroutine.wrap(OALY_fake_script)()
-local function GSOHUNH_fake_script() -- AntiCheatbypass.Script 
-	local script = Instance.new('Script', AntiCheatbypass)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		if not game:IsLoaded() then game.Loaded:Wait() end
-		local vu = game:GetService("VirtualUser")
-		game:GetService("Players").LocalPlayer.Idled:connect(function()
-			vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-			wait(1)
-			vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-		end)
-	
-		local mt = getrawmetatable(game)
-		local old = mt.__namecall
-		local protect = newcclosure or protect_function
-	
-		setreadonly(mt, false)
-		mt.__namecall = protect(function(self, ...)
-			local method = getnamecallmethod()
-			if method == "Kick" then
-				wait(9e9)
-				return
-			end
-			return old(self, ...)
-		end)
-		hookfunction(game.Players.LocalPlayer.Kick,protect(function() wait(9e9) end))
-	end)
-end
-coroutine.wrap(GSOHUNH_fake_script)()
-local function DFSCZ_fake_script() -- AntiCheatbypass_2.Script 
-	local script = Instance.new('Script', AntiCheatbypass_2)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		local lp = game.Players.LocalPlayer
-		AnimationId = "3337994105"
-		local Anim = Instance.new("Animation")
-		Anim.AnimationId = "rbxassetid://"..AnimationId
-		standanim = lp.Character.Humanoid:LoadAnimation(Anim)
-		standanim:Play(0)
-		standanim:AdjustSpeed(1)
-		lp.Character.Animate.Disabled = true
-	end)
-end
-coroutine.wrap(DFSCZ_fake_script)()
-local function JMIL_fake_script() -- Dupe.Script 
-	local script = Instance.new('Script', Dupe)
-
-	local Player = game.Players.LocalPlayer
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		agame.Players.LocalPlayer.Character.Humanoid:Destroy()
-		await(0.8)
-		aPlayer:Kick("hi")
-		await()
-		agame:GetService('TeleportService'):Teleport(game.PlaceId == 4581966615)
-	end)
-end
-coroutine.wrap(JMIL_fake_script)()
-local function RVJIK_fake_script() -- ForceDrop.Script 
-	local script = Instance.new('Script', ForceDrop)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.Humanoid:Destroy()
-	end)
-end
-coroutine.wrap(RVJIK_fake_script)()
-local function LKRY_fake_script() -- InfShotgunRounds.Script 
-	local script = Instance.new('Script', InfShotgunRounds)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		_G.bulletsPerRound = 50 -- set to how many bullets you want shot per click
-	
-	
-	
-		local lp = game.Players.LocalPlayer
-	
-	
-		local shotgunnames = {}
-	
-		local itemlist
-		local s,e = pcall(function()
-			itemlist = loadstring(decompile(game:GetService("ReplicatedStorage"):WaitForChild("Client"):WaitForChild("ItemList")))()
-		end)
-		if not s then 
-			itemlist = loadstring(game:HttpGet("https://raw.githubusercontent.com/BonfireDevelopment/Roblox/main/Anomic/Support%20Code/itemlist.lua%22"))()
-		end
-		local itemnamelist = {}
-	
-		for k,v in pairs (itemlist) do
-			table.insert(itemnamelist, k)
-			if string.find(k, "Shotgun") or k == "Sawed Off" then
-				table.insert(shotgunnames, k)
-			end
-		end
-	
-		local function ShotgunCheck(mode)
-			if mode == "char" then
-				if lp.Character and lp.Character:FindFirstChildOfClass("Tool") and table.find(shotgunnames, lp.Character:FindFirstChildOfClass("Tool").Name) then
-					return lp.Character:FindFirstChildOfClass("Tool")
-				else
-					return false
-				end
-			elseif mode == "backpack" then
-				for i,v in pairs (lp.Backpack:GetChildren()) do
-					if table.find(shotgunnames, v.Name) then
-						return v
-					end
-				end
-				return false
-			end
-		end
-		local miniguntoggle = false
-	
-		local mouse = lp:GetMouse()
-	
-		mouse.Button1Down:Connect(function()
-			if ShotgunCheck("char") then
-				for i=1,_G.bulletsPerRound do
-					ShotgunCheck("char").MainGunScript.ShotEvent:Fire(mouse, "Shotgun")
-				end
-			end
-		end)
-		local function mma(e, userInputState) 
-			if userInputState == Enum.UserInputState.End then
-				if miniguntoggle then miniguntoggle = false return end
-				miniguntoggle = true
-				if not ShotgunCheck("char") then return end
-				if not mouse1click then return end
-				while miniguntoggle do
-					if not ShotgunCheck("char") then miniguntoggle = false end
-					mouse1click()
-					task.wait(0.1)
-				end
-			end
-		end
-	
-		game.ContextActionService:BindActionAtPriority("MiddleMouseAction", mma, false, 100000, Enum.UserInputType.MouseButton3)
-	
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "Credits to Bonfire#9355",
-			Text = "My dad raped me",
-			Duration = 5
-		})
-	
-		print(hookfunction())
-	end)
-end
-coroutine.wrap(LKRY_fake_script)()
-local function HMYUFAL_fake_script() -- InfYield.Script 
-	local script = Instance.new('Script', InfYield)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/colbmane/leaked-shit/main/yoderwork'))()
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "Credits to yoder daddy ;)",
-			Text = "My dad raped me (is true no scam 2021 password 123)",
-			Duration = 5
-		})
-		wait(1)
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "jk",
-			Text = "funi",
-			Duration = 2
-		})
-	end)
-end
-coroutine.wrap(HMYUFAL_fake_script)()
-local function LNDH_fake_script() -- NoWanted.Script 
-	local script = Instance.new('Script', NoWanted)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.Head.PlayerDisplay.TeamName:Destroy()
-		game.Players.LocalPlayer.Character.Head.PlayerDisplay.GangName:Destroy()
-		game.Players.LocalPlayer.Character.Head.PlayerDisplay.Wanted:Destroy()
-		game.Players.LocalPlayer.Character.Head.PlayerDisplay.GangImg:Destroy()
-	end)
-end
-coroutine.wrap(LNDH_fake_script)()
-local function MBNGUG_fake_script() -- ShortJotaro.Script 
-	local script = Instance.new('Script', ShortJotaro)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		local Players = game:GetService('Players')
-		local LocalPlayer = Players.LocalPlayer or Players.LocalPlayer:Wait()
-		local Character = LocalPlayer.Character or LocalPlayer.Character:Wait()
-		local Humanoid = Character:WaitForChild('Humanoid')
-		local FireSequences = {{'Cloth';'Cool Hair'};{'Cloth';'No Mask'};{'Cloth';'No Beard'};{'Cloth';'Brim Hat'};{'Cloth';'No Jewelry'};{'Color';Color3.fromRGB(    255, 219, 172);'SkinColor'};{'Cloth';'No Glasses'};{'CustomCloth';'329801167'};{'CustomCloth';'329801109'}}
-		coroutine.wrap(function() 
-			for _, Sequence in next, FireSequences do
-				game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer(unpack(Sequence))
-			end
-		end)()
-		_G.isdel = false
-	
-		function Main(Delay)
-			local H = game.Players.LocalPlayer.Character:FindFirstChildWhichIsA('Humanoid')
-			local function DeleteOriginal()
-				for i,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
-					if v.Name == 'OriginalSize' then
-						v:Destroy()
-					end
-					if v.Name == 'OriginalPosition' then 
-						v:Destroy()
-					end
-				end
-			end
-			local function Width()
-				wait(Delay)
-				DeleteOriginal()
-				H:FindFirstChild("BodyWidthScale"):Destroy()
-			end
-			local function Depth()
-				wait(Delay)
-				DeleteOriginal()
-				H:FindFirstChild("BodyDepthScale"):Destroy()
-			end
-			local function Head()
-				wait(Delay)
-				DeleteOriginal()
-				H:FindFirstChild("HeadScale"):Destroy()
-			end
-			local function Type()
-				wait(Delay)
-				DeleteOriginal()
-				H:FindFirstChild("BodyTypeScale"):Destroy()
-			end 
-			--// Rearrage these below to customize titan
-			Width()
-			Type()
-			Depth()
-			Head()
-			--\
-		end
-		Main(0.8)
-	end)
-end
-coroutine.wrap(MBNGUG_fake_script)()
-local function GSSMO_fake_script() -- ShortStarPlatinum.Script 
-	local script = Instance.new('Script', ShortStarPlatinum)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		-- Star Platinum
-	
-		game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer("Color",Color3.new(128,0,128),"SkinColor")
-		game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer("CustomCloth",6644731266)
-		game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer("CustomCloth",6644731024)
-	
-		local Players = game:GetService('Players')
-		local LocalPlayer = Players.LocalPlayer or Players.LocalPlayer:Wait()
-		local Character = LocalPlayer.Character or LocalPlayer.Character:Wait()
-		local Humanoid = Character:WaitForChild('Humanoid')
-		local FireSequences = {{'Cloth';'Bed Hair'};{'Cloth';'No Mask'};{'Cloth';'No Beard'};{'Cloth';'No Hat'};{'Cloth';'No Jewelry'};{'Color';Color3.fromRGB(    128,0,128);'SkinColor'};{'Cloth';'No Glasses'};{'CustomCloth';'6644731266'};{'CustomCloth';'6644731024'}}
-		coroutine.wrap(function() 
-			for _, Sequence in next, FireSequences do
-				game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer(unpack(Sequence))
-			end
-		end)()
-		_G.isdel = false
-	
-		function Main(Delay)
-			local H = game.Players.LocalPlayer.Character:FindFirstChildWhichIsA('Humanoid')
-			local function DeleteOriginal()
-				for i,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
-					if v.Name == 'OriginalSize' then
-						v:Destroy()
-					end
-					if v.Name == 'OriginalPosition' then 
-						v:Destroy()
-					end
-				end
-			end
-			local function Width()
-				wait(Delay)
-				DeleteOriginal()
-				H:FindFirstChild("BodyWidthScale"):Destroy()
-			end
-			local function Depth()
-				wait(Delay)
-				DeleteOriginal()
-				H:FindFirstChild("BodyDepthScale"):Destroy()
-			end
-			local function Head()
-				wait(Delay)
-				DeleteOriginal()
-				H:FindFirstChild("HeadScale"):Destroy()
-			end
-			local function Type()
-				wait(Delay)
-				DeleteOriginal()
-				H:FindFirstChild("BodyTypeScale"):Destroy()
-			end 
-			--// Rearrage these below to customize titan
-			Width()
-			Type()
-			Depth()
-			Head()
-			--\
-		end
-		Main(0.8)
-	end)
-end
-coroutine.wrap(GSSMO_fake_script)()
-local function RGLADQ_fake_script() -- Sign.Script 
+coroutine.wrap(XVQDQIU_fake_script)()
+local function BQGJ_fake_script() -- Sign.Script 
 	local script = Instance.new('Script', Sign)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		--nazi sign (30x repair kits)
 	
 		local lp = game.Players.LocalPlayer
 		local v = lp.Backpack["Repair Kit"]
@@ -913,49 +676,420 @@ local function RGLADQ_fake_script() -- Sign.Script
 		wait(0)
 	end)
 end
-coroutine.wrap(RGLADQ_fake_script)()
-local function FGYBTRI_fake_script() -- X.Script 
-	local script = Instance.new('Script', X)
+coroutine.wrap(BQGJ_fake_script)()
+local function IKIBH_fake_script() -- ShortStarPlatinum.Script 
+	local script = Instance.new('Script', ShortStarPlatinum)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.MainFrame:Destroy()
+		-- Star Platinum
+	
+		game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer("Color",Color3.new(128,0,128),"SkinColor")
+		game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer("CustomCloth",6644731266)
+		game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer("CustomCloth",6644731024)
+	
+		local Players = game:GetService('Players')
+		local LocalPlayer = Players.LocalPlayer or Players.LocalPlayer:Wait()
+		local Character = LocalPlayer.Character or LocalPlayer.Character:Wait()
+		local Humanoid = Character:WaitForChild('Humanoid')
+		local FireSequences = {{'Cloth';'Bed Hair'};{'Cloth';'No Mask'};{'Cloth';'No Beard'};{'Cloth';'No Hat'};{'Cloth';'No Jewelry'};{'Color';Color3.fromRGB(    128,0,128);'SkinColor'};{'Cloth';'No Glasses'};{'CustomCloth';'6644731266'};{'CustomCloth';'6644731024'}}
+		coroutine.wrap(function() 
+			for _, Sequence in next, FireSequences do
+				game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer(unpack(Sequence))
+			end
+		end)()
+		_G.isdel = false
+	
+		function Main(Delay)
+			local H = game.Players.LocalPlayer.Character:FindFirstChildWhichIsA('Humanoid')
+			local function DeleteOriginal()
+				for i,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+					if v.Name == 'OriginalSize' then
+						v:Destroy()
+					end
+					if v.Name == 'OriginalPosition' then 
+						v:Destroy()
+					end
+				end
+			end
+			local function Width()
+				wait(Delay)
+				DeleteOriginal()
+				H:FindFirstChild("BodyWidthScale"):Destroy()
+			end
+			local function Depth()
+				wait(Delay)
+				DeleteOriginal()
+				H:FindFirstChild("BodyDepthScale"):Destroy()
+			end
+			local function Head()
+				wait(Delay)
+				DeleteOriginal()
+				H:FindFirstChild("HeadScale"):Destroy()
+			end
+			local function Type()
+				wait(Delay)
+				DeleteOriginal()
+				H:FindFirstChild("BodyTypeScale"):Destroy()
+			end 
+			--// Rearrage these below to customize titan
+			Width()
+			Type()
+			Depth()
+			Head()
+			--\
+		end
+		Main(0.8)
 	end)
 end
-coroutine.wrap(FGYBTRI_fake_script)()
-local function XKDYKNO_fake_script() -- Gui.KeyPress 
-	local script = Instance.new('LocalScript', Gui)
+coroutine.wrap(IKIBH_fake_script)()
+local function KCZIOAE_fake_script() -- ShortJotaro.Script 
+	local script = Instance.new('Script', ShortJotaro)
 
-	--[[
-		
-		Press Key to Open a GUI Script V2
-		Script By: Theevilem
-		
-		This script works so that when you press a key on your keyboard, it opens a Gui.
-		
-		Put it accordingly into the StarterGui (More info on line 17
-		
-	--]]
-	wait()
+	script.Parent.MouseButton1Click:Connect(function()
+		local Players = game:GetService('Players')
+		local LocalPlayer = Players.LocalPlayer or Players.LocalPlayer:Wait()
+		local Character = LocalPlayer.Character or LocalPlayer.Character:Wait()
+		local Humanoid = Character:WaitForChild('Humanoid')
+		local FireSequences = {{'Cloth';'Cool Hair'};{'Cloth';'No Mask'};{'Cloth';'No Beard'};{'Cloth';'Brim Hat'};{'Cloth';'No Jewelry'};{'Color';Color3.fromRGB(    255, 219, 172);'SkinColor'};{'Cloth';'No Glasses'};{'CustomCloth';'329801167'};{'CustomCloth';'329801109'}}
+		coroutine.wrap(function() 
+			for _, Sequence in next, FireSequences do
+				game:GetService("ReplicatedStorage")["_CS.Events"].EquipAvatarItem:FireServer(unpack(Sequence))
+			end
+		end)()
+		_G.isdel = false
 	
-	local Players = game:GetService("Players")
-	local Player = Players.LocalPlayer
+		function Main(Delay)
+			local H = game.Players.LocalPlayer.Character:FindFirstChildWhichIsA('Humanoid')
+			local function DeleteOriginal()
+				for i,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+					if v.Name == 'OriginalSize' then
+						v:Destroy()
+					end
+					if v.Name == 'OriginalPosition' then 
+						v:Destroy()
+					end
+				end
+			end
+			local function Width()
+				wait(Delay)
+				DeleteOriginal()
+				H:FindFirstChild("BodyWidthScale"):Destroy()
+			end
+			local function Depth()
+				wait(Delay)
+				DeleteOriginal()
+				H:FindFirstChild("BodyDepthScale"):Destroy()
+			end
+			local function Head()
+				wait(Delay)
+				DeleteOriginal()
+				H:FindFirstChild("HeadScale"):Destroy()
+			end
+			local function Type()
+				wait(Delay)
+				DeleteOriginal()
+				H:FindFirstChild("BodyTypeScale"):Destroy()
+			end 
+			--// Rearrage these below to customize titan
+			Width()
+			Type()
+			Depth()
+			Head()
+			--\
+		end
+		Main(0.8)
+	end)
+end
+coroutine.wrap(KCZIOAE_fake_script)()
+local function ONVV_fake_script() -- NoWanted.Script 
+	local script = Instance.new('Script', NoWanted)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Head.PlayerDisplay.TeamName:Destroy()
+		game.Players.LocalPlayer.Character.Head.PlayerDisplay.GangName:Destroy()
+		game.Players.LocalPlayer.Character.Head.PlayerDisplay.Wanted:Destroy()
+		game.Players.LocalPlayer.Character.Head.PlayerDisplay.GangImg:Destroy()
+	end)
+end
+coroutine.wrap(ONVV_fake_script)()
+local function FXPZZLG_fake_script() -- InfYield.Script 
+	local script = Instance.new('Script', InfYield)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/colbmane/leaked-shit/main/yoderwork'))()
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Credits to yoder daddy ;)",
+			Text = "My dad raped me (is true no scam 2021 password 123)",
+			Duration = 5
+		})
+		wait(1)
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "jk",
+			Text = "funi",
+			Duration = 2
+		})
+	end)
+end
+coroutine.wrap(FXPZZLG_fake_script)()
+local function OILTBJ_fake_script() -- InfShotgunRounds.Script 
+	local script = Instance.new('Script', InfShotgunRounds)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.bulletsPerRound = 50 -- set to how many bullets you want shot per click
 	
-	local Mouse = Player:GetMouse()
-	local Gui = script.Parent.MainFrame -- Set path to whatever Gui you want to open. For Example: script.Parent.Parent.GuiOrFrameName
-	local Open = false
 	
-	function PressH(key) -- Chnage Q to whatever key you desire. Capitals matter. For Example: PressH
-		if (key == "h") then -- Change "q" to whatever letter you use in the line above. Lowercase matters. For Example: "h"
-			if (Open == false) then
-				Gui.Visible = true
-				Open = true
-			elseif (Open == true) then
-				Gui.Visible = false
-				Open = false
+	
+		local lp = game.Players.LocalPlayer
+	
+	
+		local shotgunnames = {}
+	
+		local itemlist
+		local s,e = pcall(function()
+			itemlist = loadstring(decompile(game:GetService("ReplicatedStorage"):WaitForChild("Client"):WaitForChild("ItemList")))()
+		end)
+		if not s then 
+			itemlist = loadstring(game:HttpGet("https://raw.githubusercontent.com/BonfireDevelopment/Roblox/main/Anomic/Support%20Code/itemlist.lua%22"))()
+		end
+		local itemnamelist = {}
+	
+		for k,v in pairs (itemlist) do
+			table.insert(itemnamelist, k)
+			if string.find(k, "Shotgun") or k == "Sawed Off" then
+				table.insert(shotgunnames, k)
 			end
 		end
-	end
-		
-	Mouse.KeyDown:Connect(PressH) -- Make sure (PressQ) matches what you have for line 20. For Example: (PressH)
+	
+		local function ShotgunCheck(mode)
+			if mode == "char" then
+				if lp.Character and lp.Character:FindFirstChildOfClass("Tool") and table.find(shotgunnames, lp.Character:FindFirstChildOfClass("Tool").Name) then
+					return lp.Character:FindFirstChildOfClass("Tool")
+				else
+					return false
+				end
+			elseif mode == "backpack" then
+				for i,v in pairs (lp.Backpack:GetChildren()) do
+					if table.find(shotgunnames, v.Name) then
+						return v
+					end
+				end
+				return false
+			end
+		end
+		local miniguntoggle = false
+	
+		local mouse = lp:GetMouse()
+	
+		mouse.Button1Down:Connect(function()
+			if ShotgunCheck("char") then
+				for i=1,_G.bulletsPerRound do
+					ShotgunCheck("char").MainGunScript.ShotEvent:Fire(mouse, "Shotgun")
+				end
+			end
+		end)
+		local function mma(e, userInputState) 
+			if userInputState == Enum.UserInputState.End then
+				if miniguntoggle then miniguntoggle = false return end
+				miniguntoggle = true
+				if not ShotgunCheck("char") then return end
+				if not mouse1click then return end
+				while miniguntoggle do
+					if not ShotgunCheck("char") then miniguntoggle = false end
+					mouse1click()
+					task.wait(0.1)
+				end
+			end
+		end
+	
+		game.ContextActionService:BindActionAtPriority("MiddleMouseAction", mma, false, 100000, Enum.UserInputType.MouseButton3)
+	
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Credits to Bonfire#9355",
+			Text = "My dad raped me",
+			Duration = 5
+		})
+	
+		print(hookfunction())
+	end)
 end
-coroutine.wrap(XKDYKNO_fake_script)()
+coroutine.wrap(OILTBJ_fake_script)()
+local function WFMPOKV_fake_script() -- ForceDrop.Script 
+	local script = Instance.new('Script', ForceDrop)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid:Destroy()
+	end)
+end
+coroutine.wrap(WFMPOKV_fake_script)()
+local function ZGQV_fake_script() -- Dupe.Script 
+	local script = Instance.new('Script', Dupe)
+
+	local Player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		agame.Players.LocalPlayer.Character.Humanoid:Destroy()
+		await(0.8)
+		aPlayer:Kick("hi")
+		await()
+		agame:GetService('TeleportService'):Teleport(game.PlaceId == 4581966615)
+	end)
+end
+coroutine.wrap(ZGQV_fake_script)()
+local function OERWPQV_fake_script() -- AntiCheatbypass.Script 
+	local script = Instance.new('Script', AntiCheatbypass)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if not game:IsLoaded() then game.Loaded:Wait() end
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+			vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+			wait(1)
+			vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
+	
+		local mt = getrawmetatable(game)
+		local old = mt.__namecall
+		local protect = newcclosure or protect_function
+	
+		setreadonly(mt, false)
+		mt.__namecall = protect(function(self, ...)
+			local method = getnamecallmethod()
+			if method == "Kick" then
+				wait(9e9)
+				return
+			end
+			return old(self, ...)
+		end)
+		hookfunction(game.Players.LocalPlayer.Kick,protect(function() wait(9e9) end))
+	end)
+end
+coroutine.wrap(OERWPQV_fake_script)()
+local function NAGAUIM_fake_script() -- Levitate.Script 
+	local script = Instance.new('Script', Levitate)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local lp = game.Players.LocalPlayer
+		AnimationId = "3337994105"
+		local Anim = Instance.new("Animation")
+		Anim.AnimationId = "rbxassetid://"..AnimationId
+		standanim = lp.Character.Humanoid:LoadAnimation(Anim)
+		standanim:Play(0)
+		standanim:AdjustSpeed(1)
+		lp.Character.Animate.Disabled = true
+	end)
+end
+coroutine.wrap(NAGAUIM_fake_script)()
+local function QAYG_fake_script() -- Anomicv.Script 
+	local script = Instance.new('Script', Anomicv)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/HELLLO1073/RobloxStuff/main/SMain.lua"))()
+		
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Credits to H3#3534",
+			Text = "My dad raped me (is true no scam 2021 password 123)",
+			Duration = 5
+		})
+	end)
+end
+coroutine.wrap(QAYG_fake_script)()
+local function UWPE_fake_script() -- Sign_2.Script 
+	local script = Instance.new('Script', Sign_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Drill"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(.5,1,-.5) * CFrame.Angles(0,0,0)
+		wait(0)  
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Drill"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(1.3,1,-.5) * CFrame.Angles(0,0,0)
+		wait(0)  
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Drill"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(1.3,1,-0) * CFrame.Angles(1,0,0)
+		wait(0) 
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Drill"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(.5,1,0) * CFrame.Angles(1,0,0)
+		wait(0) 
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Drill"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(.5,1,-3) * CFrame.Angles(1,0,0)
+		wait(0) 
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Drill"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(1.3,1,-3) * CFrame.Angles(1,0,0)
+		wait(0) 
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Drill"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(1.3,3,-4) * CFrame.Angles(2,0,0)
+		wait(0) 
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Drill"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(.5,3,-4) * CFrame.Angles(2,0,0)
+		wait(0) 
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Drill"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(.5,1,2) * CFrame.Angles(0,0,0)
+		wait(0) 
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Drill"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(1.3,1,2) * CFrame.Angles(0,0,0)
+		wait(0) 
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Drill"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(1.3,-2,3) * CFrame.Angles(1,0,0)
+		wait(0) 
+	
+		local lp = game.Players.LocalPlayer
+		local v = lp.Backpack["Drill"]
+		v.Parent = lp.Character
+		v.Grip = CFrame.new(.5,-2,3) * CFrame.Angles(1,0,0)
+		wait(0) 
+	
+	end)
+end
+coroutine.wrap(UWPE_fake_script)()
+local function BLLKO_fake_script() -- Hero.Script 
+	local script = Instance.new('Script', Hero)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local lp = game.Players.LocalPlayer
+		AnimationId = "5104344710"
+		local Anim = Instance.new("Animation")
+		Anim.AnimationId = "rbxassetid://"..AnimationId
+		local k = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+		k:Play(0)
+		k:AdjustSpeed(1)
+		wait(0.2)
+		game.Players.LocalPlayer.Character.Animate.Disabled = true
+		k.DidLoop:connect(function(speed)
+			game.Players.LocalPlayer.Character.Animate.Disabled = false
+			k:Stop(0)
+		end)
+	end)
+end
+coroutine.wrap(BLLKO_fake_script)()
