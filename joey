@@ -60,7 +60,7 @@ MainFrame.Active = true
 MainFrame.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
 MainFrame.Position = UDim2.new(0.127421007, 0, 0.139874741, 0)
 MainFrame.Size = UDim2.new(0, 626, 0, 299)
-MainFrame.CanvasPosition = Vector2.new(0, 450)
+MainFrame.Visible = false
 
 ImageLabel.Parent = MainFrame
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -370,7 +370,7 @@ Hero.TextWrapped = true
 
 -- Scripts:
 
-local function HADJ_fake_script() -- Gui.LocalScript 
+local function SYGULHO_fake_script() -- Gui.LocalScript 
 	local script = Instance.new('LocalScript', Gui)
 
 	local plr = game.Players.LocalPlayer
@@ -380,6 +380,8 @@ local function HADJ_fake_script() -- Gui.LocalScript
 	else
 		script.Parent.MainFrame:Destroy()
 		script.Parent.TextLabel.Visible = true
+		game.Workspace.Thunder.SoundId = "rbxassetid://7086388496"
+		wait(.1)
 		game.Workspace.Thunder.Playing = true
 		wait(3)
 		game.Workspace.Thunder.SoundId = "rbxassetid://2976697808"
@@ -389,8 +391,8 @@ local function HADJ_fake_script() -- Gui.LocalScript
 		plr:Kick("Joey, no more trying to get my gui for free and actually pay for it!!!!")
 	end
 end
-coroutine.wrap(HADJ_fake_script)()
-local function AOTT_fake_script() -- Gui.KeyPress 
+coroutine.wrap(SYGULHO_fake_script)()
+local function OIEODGZ_fake_script() -- Gui.KeyPress 
 	local script = Instance.new('LocalScript', Gui)
 
 	--[[
@@ -426,8 +428,8 @@ local function AOTT_fake_script() -- Gui.KeyPress
 		
 	Mouse.KeyDown:Connect(PressH) -- Make sure (PressQ) matches what you have for line 20. For Example: (PressH)
 end
-coroutine.wrap(AOTT_fake_script)()
-local function LUFUU_fake_script() -- MainFrame.DragScript 
+coroutine.wrap(OIEODGZ_fake_script)()
+local function MJHMHMO_fake_script() -- MainFrame.DragScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local UIS = game:GetService('UserInputService')
@@ -471,8 +473,8 @@ local function LUFUU_fake_script() -- MainFrame.DragScript
 	--;----;-- (I Forgot What The Other Stuff Dose) --;----;-- |
 	------------------------------------------------------------
 end
-coroutine.wrap(LUFUU_fake_script)()
-local function ZEHVA_fake_script() -- MainFrame.Script 
+coroutine.wrap(MJHMHMO_fake_script)()
+local function SVVRZNT_fake_script() -- MainFrame.Script 
 	local script = Instance.new('Script', MainFrame)
 
 	game.StarterGui:SetCore("SendNotification", {
@@ -481,16 +483,16 @@ local function ZEHVA_fake_script() -- MainFrame.Script
 		Duration = 5
 	})
 end
-coroutine.wrap(ZEHVA_fake_script)()
-local function XVQDQIU_fake_script() -- X.Script 
+coroutine.wrap(SVVRZNT_fake_script)()
+local function FEPIMYX_fake_script() -- X.Script 
 	local script = Instance.new('Script', X)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.MainFrame:Destroy()
 	end)
 end
-coroutine.wrap(XVQDQIU_fake_script)()
-local function BQGJ_fake_script() -- Sign.Script 
+coroutine.wrap(FEPIMYX_fake_script)()
+local function QFAWQNN_fake_script() -- Sign.Script 
 	local script = Instance.new('Script', Sign)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -676,8 +678,8 @@ local function BQGJ_fake_script() -- Sign.Script
 		wait(0)
 	end)
 end
-coroutine.wrap(BQGJ_fake_script)()
-local function IKIBH_fake_script() -- ShortStarPlatinum.Script 
+coroutine.wrap(QFAWQNN_fake_script)()
+local function SBRYFWH_fake_script() -- ShortStarPlatinum.Script 
 	local script = Instance.new('Script', ShortStarPlatinum)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -741,8 +743,8 @@ local function IKIBH_fake_script() -- ShortStarPlatinum.Script
 		Main(0.8)
 	end)
 end
-coroutine.wrap(IKIBH_fake_script)()
-local function KCZIOAE_fake_script() -- ShortJotaro.Script 
+coroutine.wrap(SBRYFWH_fake_script)()
+local function WSPJQPA_fake_script() -- ShortJotaro.Script 
 	local script = Instance.new('Script', ShortJotaro)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -800,8 +802,8 @@ local function KCZIOAE_fake_script() -- ShortJotaro.Script
 		Main(0.8)
 	end)
 end
-coroutine.wrap(KCZIOAE_fake_script)()
-local function ONVV_fake_script() -- NoWanted.Script 
+coroutine.wrap(WSPJQPA_fake_script)()
+local function EIRVM_fake_script() -- NoWanted.Script 
 	local script = Instance.new('Script', NoWanted)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -811,8 +813,8 @@ local function ONVV_fake_script() -- NoWanted.Script
 		game.Players.LocalPlayer.Character.Head.PlayerDisplay.GangImg:Destroy()
 	end)
 end
-coroutine.wrap(ONVV_fake_script)()
-local function FXPZZLG_fake_script() -- InfYield.Script 
+coroutine.wrap(EIRVM_fake_script)()
+local function EJRVBI_fake_script() -- InfYield.Script 
 	local script = Instance.new('Script', InfYield)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -830,8 +832,8 @@ local function FXPZZLG_fake_script() -- InfYield.Script
 		})
 	end)
 end
-coroutine.wrap(FXPZZLG_fake_script)()
-local function OILTBJ_fake_script() -- InfShotgunRounds.Script 
+coroutine.wrap(EJRVBI_fake_script)()
+local function AUBDAN_fake_script() -- InfShotgunRounds.Script 
 	local script = Instance.new('Script', InfShotgunRounds)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -912,16 +914,16 @@ local function OILTBJ_fake_script() -- InfShotgunRounds.Script
 		print(hookfunction())
 	end)
 end
-coroutine.wrap(OILTBJ_fake_script)()
-local function WFMPOKV_fake_script() -- ForceDrop.Script 
+coroutine.wrap(AUBDAN_fake_script)()
+local function FPMQSW_fake_script() -- ForceDrop.Script 
 	local script = Instance.new('Script', ForceDrop)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid:Destroy()
 	end)
 end
-coroutine.wrap(WFMPOKV_fake_script)()
-local function ZGQV_fake_script() -- Dupe.Script 
+coroutine.wrap(FPMQSW_fake_script)()
+local function KGPUN_fake_script() -- Dupe.Script 
 	local script = Instance.new('Script', Dupe)
 
 	local Player = game.Players.LocalPlayer
@@ -934,8 +936,8 @@ local function ZGQV_fake_script() -- Dupe.Script
 		agame:GetService('TeleportService'):Teleport(game.PlaceId == 4581966615)
 	end)
 end
-coroutine.wrap(ZGQV_fake_script)()
-local function OERWPQV_fake_script() -- AntiCheatbypass.Script 
+coroutine.wrap(KGPUN_fake_script)()
+local function XVQTSU_fake_script() -- AntiCheatbypass.Script 
 	local script = Instance.new('Script', AntiCheatbypass)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -963,8 +965,8 @@ local function OERWPQV_fake_script() -- AntiCheatbypass.Script
 		hookfunction(game.Players.LocalPlayer.Kick,protect(function() wait(9e9) end))
 	end)
 end
-coroutine.wrap(OERWPQV_fake_script)()
-local function NAGAUIM_fake_script() -- Levitate.Script 
+coroutine.wrap(XVQTSU_fake_script)()
+local function NRVTWFF_fake_script() -- Levitate.Script 
 	local script = Instance.new('Script', Levitate)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -978,8 +980,8 @@ local function NAGAUIM_fake_script() -- Levitate.Script
 		lp.Character.Animate.Disabled = true
 	end)
 end
-coroutine.wrap(NAGAUIM_fake_script)()
-local function QAYG_fake_script() -- Anomicv.Script 
+coroutine.wrap(NRVTWFF_fake_script)()
+local function GJTD_fake_script() -- Anomicv.Script 
 	local script = Instance.new('Script', Anomicv)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -992,8 +994,8 @@ local function QAYG_fake_script() -- Anomicv.Script
 		})
 	end)
 end
-coroutine.wrap(QAYG_fake_script)()
-local function UWPE_fake_script() -- Sign_2.Script 
+coroutine.wrap(GJTD_fake_script)()
+local function AWVH_fake_script() -- Sign_2.Script 
 	local script = Instance.new('Script', Sign_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1072,8 +1074,8 @@ local function UWPE_fake_script() -- Sign_2.Script
 	
 	end)
 end
-coroutine.wrap(UWPE_fake_script)()
-local function BLLKO_fake_script() -- Hero.Script 
+coroutine.wrap(AWVH_fake_script)()
+local function OPVAJ_fake_script() -- Hero.Script 
 	local script = Instance.new('Script', Hero)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1092,4 +1094,4 @@ local function BLLKO_fake_script() -- Hero.Script
 		end)
 	end)
 end
-coroutine.wrap(BLLKO_fake_script)()
+coroutine.wrap(OPVAJ_fake_script)()
