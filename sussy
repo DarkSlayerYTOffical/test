@@ -1,0 +1,35 @@
+    local A_1 = "I AM A SKID AHAHAHAHAH"
+    local A_2 = "All"
+    local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+    Event:FireServer(A_1, A_2)
+    
+    local A_1 = "I AM A SKID AHAHAHAHAH"
+    local A_2 = "All"
+    local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+    Event:FireServer(A_1, A_2)
+
+local lp = game.Players.LocalPlayer
+AnimationId = "4940563117"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+standanim = lp.Character.Humanoid:LoadAnimation(Anim)
+standanim:Play(0)
+standanim:AdjustSpeed(1)
+lp.Character.Animate.Disabled = true
+
+game.Workspace.Thunder.SoundId = "rbxassetid://5622443377"
+game.Workspace.Thunder.Volume = "10"
+game.Workspace.Thunder.Playing = true
+local A_1 = "I AM A SKID AHAHAHAHAH"
+    local A_2 = "All"
+    local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+    Event:FireServer(A_1, A_2)
+wait(7.784)
+game.Workspace.Thunder.SoundId = "rbxassetid://2976697808"
+game.Workspace.Thunder.Playing = true
+local A_1 = "I AM A SKID AHAHAHAHAH"
+    local A_2 = "All"
+    local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+    Event:FireServer(A_1, A_2)
+wait(3)
+game.Players.LocalPlayer:Kick("why")
